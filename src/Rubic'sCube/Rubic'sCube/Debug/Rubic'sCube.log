@@ -1,2 +1,11 @@
 ﻿  Game.cpp
+d:\_infuture_software_developer\c++\rubics_cube\src\rubic'scube\rubic'scube\game.cpp(33): warning C4101: 'Result': unreferenced local variable
+  d:\_infuture_software_developer\c++\rubics_cube\src\rubic'scube\rubic'scube\game.cpp(21): note: see reference to function template instantiation 'void Game::UpRotatingByClockwise<char(*)[3],char(*)[3],char(*)[3],char(*)[3]>(a,b,c,d)' being compiled
+          with
+          [
+              a=char (*)[3],
+              b=char (*)[3],
+              c=char (*)[3],
+              d=char (*)[3]
+          ]
   Rubic'sCube.vcxproj -> D:\_InFuture_Software_Developer\C++\Rubics_Cube\src\Rubic'sCube\Debug\Rubic'sCube.exe

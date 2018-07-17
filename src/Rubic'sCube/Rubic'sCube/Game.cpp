@@ -20,11 +20,12 @@ void Game::fGameLoop()
 	RubicsCube Red_side('R');
 	UpRotatingByClockwise(Blue_side.array_cube_color, Green_side.array_cube_color, Orange_side.array_cube_color, Red_side.array_cube_color);
 	UpRotatingByClockwise(Blue_side.array_cube_color, Green_side.array_cube_color, Orange_side.array_cube_color, Red_side.array_cube_color);
+	UpRotatingByClockwise(Blue_side.array_cube_color, Green_side.array_cube_color, Orange_side.array_cube_color, Red_side.array_cube_color);
 	Blue_side.get_Cube_side();
 }
 
 template <typename a, typename b, typename c, typename d>
-char UpRotatingByClockwise(a firstColor, b secondColor, c thirdColor, d fourthColor)
+void Game::UpRotatingByClockwise(a firstColor, b secondColor, c thirdColor, d fourthColor)
 {
 	system("cls");
 	RubicsCube cubes_number;
@@ -32,18 +33,15 @@ char UpRotatingByClockwise(a firstColor, b secondColor, c thirdColor, d fourthCo
 	char Result;
 	int tempArr[3][3]{};
 	for (int i = 0; i < 3; i++)
-		tempArr[0][i] = firstColor[0][i]
+		tempArr[0][i] = firstColor[0][i];
 
-	
 	for (int i = 0; i < number; i++)
 	{
-		firstColor[0][i]  = secondColor[0][i];
+		firstColor[0][i] = secondColor[0][i];
 		secondColor[0][i] = thirdColor[0][i];
-		thirdColor[0][i]  = fourthColor[0][i];
+		thirdColor[0][i] = fourthColor[0][i];
 		fourthColor[0][i] = tempArr[0][i];
 	}
-	
-	return firstColor;
 }
 
 Game::~Game()

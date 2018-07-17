@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\Game.h" />
     <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\Rubic%27sCube.h" />
     <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\stdafx.h" />
     <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Rubic%27sCube\Rubic%27sCube\Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="..\..\Rubic%27sCube\Rubic%27sCube\Rubic%27sCube.cpp" />
     <ClCompile Include="..\..\Rubic%27sCube\Rubic%27sCube\stdafx.cpp">

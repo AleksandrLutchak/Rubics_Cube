@@ -2,8 +2,8 @@
 #pragma once
 //#include "stdafx.h"
 #include <iostream>
-
 using namespace std;
+
 class Cube
 {
 	char cube_color;
@@ -12,10 +12,11 @@ class Cube
 
 private:
 	void generate_cube_side();
-
+	
 
 public:
 	Cube(char c);
 	void get_Cube_side();
 	~Cube();
 };
+

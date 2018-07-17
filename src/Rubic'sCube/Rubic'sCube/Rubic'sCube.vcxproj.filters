@@ -24,6 +24,9 @@
     <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\Rubic%27sCube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Rubic%27sCube\Rubic%27sCube\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Rubic%27sCube\Rubic%27sCube\stdafx.cpp">
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Rubic%27sCube\Rubic%27sCube\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

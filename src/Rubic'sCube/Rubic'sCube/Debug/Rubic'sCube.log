@@ -1,6 +1,2 @@
-﻿  stdafx.cpp
-  main.cpp
-d:\_infuture_software_developer\c++\rubics_cube\src\rubic'scube\rubic'scube\main.cpp(9): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Rubic'sCube.cpp
-d:\_infuture_software_developer\c++\rubics_cube\src\rubic'scube\rubic'scube\rubic'scube.cpp(35): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
-  Generating Code...
+﻿  Rubic'sCube.cpp
+  Rubic'sCube.vcxproj -> D:\_InFuture_Software_Developer\C++\Rubics_Cube\src\Rubic'sCube\Debug\Rubic'sCube.exe

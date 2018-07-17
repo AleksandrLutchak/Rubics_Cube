@@ -3,23 +3,24 @@
 #include "Rubic'sCube.h"
 using namespace std;
 
-void initialize_cubes();
+void GameFunk();
 
 void main()
 {
-	initialize_cubes();
-
+	GameFunk();
+	
+	system("pause");
 }
 
 
-void initialize_cubes()
+void GameFunk()
 {
-	Cube Blue_side	('B'); cout << endl;
-	Cube Yellow_side('Y'); cout << endl;
-	Cube Red_side	('R'); cout << endl;
-	Cube Orange_side('O'); cout << endl;
-	Cube Green_side	('G'); cout << endl;
-	Cube White_side	('W'); cout << endl;
+	cout << "Front: " << endl; Cube Blue_side	('B'); cout << endl;
+	cout << "Up:    " << endl; Cube Yellow_side	('Y'); cout << endl;
+	cout << "Left:  " << endl; Cube Red_side	('R'); cout << endl;
+	cout << "Back:  " << endl; Cube Orange_side	('O'); cout << endl;
+	cout << "Right: " << endl; Cube Green_side	('G'); cout << endl;
+	cout << "Down:  " << endl; Cube White_side	('W'); cout << endl;
 
-	system("pause");
+	
 }

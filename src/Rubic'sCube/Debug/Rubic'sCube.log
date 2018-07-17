@@ -1,3 +1,0 @@
-﻿  main.cpp
-c:\users\olutchak\source\repos\rubic'scube\rubic'scube\main.cpp(9): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Rubic'sCube.vcxproj -> C:\Users\OLutchak\source\repos\Rubic'sCube\Debug\Rubic'sCube.exe
